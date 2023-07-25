@@ -1,0 +1,87 @@
+@import "fonts.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.button {
+    border: none;
+    outline: none;
+}
+
+input {
+    border: 0;
+    outline: none;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.nav {
+    background: #3E8989;
+    padding: 37px 0;
+}
+
+.nav__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list {
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.nav__list-link {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav__search {
+
+}
+
+.nav__search-input {
+    padding: 8px 148px 8px 20px;
+    border-radius: 20px 0px 0px 20px;
+    background: #FFF;
+    color: #898989;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.nav__search-button {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 0px 20px 20px 0px;
+    background: #295E5E;
+    padding: 9px 14px;
+}

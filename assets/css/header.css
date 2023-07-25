@@ -1,0 +1,64 @@
+@import "fonts.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background: url('../images/header-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 800px;
+}
+
+.header__content {
+    padding-top: 250px;
+    padding-bottom: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header__subtitle {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.header__content-btn {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 30px;
+    background: #B4436C;
+    padding: 14px 78px;
+    transition: 0.4s;
+}
+
+.header__content-btn:hover {
+    background: #FFFFFF;
+    color: #B4436C;
+}
